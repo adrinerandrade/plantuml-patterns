@@ -13,3 +13,5 @@ UpdateElementStyle("person", $bgColor=$PERSON_COLOR, $borderColor=$PERSON_COLOR,
 AddContainerTag("new_resource", $bgColor=$NEW_RESOURCE_COLOR, $fontColor=white, $legendText="New Resource")
 AddContainerTag("unchanged", $bgColor=$UNCHANGED_COLOR, $borderColor=$UNCHANGED_COLOR, $fontColor=white, $legendText="Unchanged")
 AddContainerTag("changed", $bgColor=$CHANGED_COLOR, $borderColor=$CHANGED_COLOR, $fontColor=white, $legendText="Changed")
+
+SHOW_PERSON_OUTLINE()
