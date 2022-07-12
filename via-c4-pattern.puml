@@ -1,0 +1,15 @@
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+!$EXTERNAL_SYSTEM_COLOR = "#555555"
+!$PERSON_COLOR = "#09427b"
+ 
+!$NEW_RESOURCE_COLOR = "#0044A3"
+!$UNCHANGED_COLOR = "#AAAAAA"
+!$CHANGED_COLOR = "#347DE3"
+ 
+UpdateElementStyle("external_system", $bgColor=$EXTERNAL_SYSTEM_COLOR, $borderColor=$EXTERNAL_SYSTEM_COLOR, $fontColor=white, $legendText="External System")
+UpdateElementStyle("person", $bgColor=$PERSON_COLOR, $borderColor=$PERSON_COLOR, $fontColor=white, $legendText="External System", $legendText="Person")
+ 
+AddContainerTag("new_resource", $bgColor=$NEW_RESOURCE_COLOR, $fontColor=white, $legendText="New Resource")
+AddContainerTag("unchanged", $bgColor=$UNCHANGED_COLOR, $borderColor=$UNCHANGED_COLOR, $fontColor=white, $legendText="Unchanged")
+AddContainerTag("changed", $bgColor=$CHANGED_COLOR, $borderColor=$CHANGED_COLOR, $fontColor=white, $legendText="Changed")
