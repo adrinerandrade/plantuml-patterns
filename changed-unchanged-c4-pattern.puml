@@ -1,4 +1,4 @@
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include <C4/C4_Container>
 
 !$EXTERNAL_SYSTEM_COLOR = "#555555"
 !$PERSON_COLOR = "#09427b"
