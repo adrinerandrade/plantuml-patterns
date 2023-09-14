@@ -15,3 +15,5 @@ AddContainerTag("unchanged", $bgColor=$UNCHANGED_COLOR, $borderColor=$UNCHANGED_
 AddContainerTag("changed", $bgColor=$CHANGED_COLOR, $borderColor=$CHANGED_COLOR, $fontColor=white, $legendText="Changed")
 
 SHOW_PERSON_OUTLINE()
+
+skinparam lengthAdjust none
