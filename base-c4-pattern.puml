@@ -2,6 +2,7 @@
 
 !$EXTERNAL_SYSTEM_COLOR = "#555555"
 !$SYSTEM_COLOR = "#1168bd"
+!$CONTAINER_COLOR = "#438dd5"
 !$PERSON_COLOR = "#09427b"
  
 !$NEW_RESOURCE_COLOR = "#0044A3"
@@ -10,6 +11,7 @@
 
 UpdateElementStyle("external_system", $bgColor=$EXTERNAL_SYSTEM_COLOR, $borderColor=$EXTERNAL_SYSTEM_COLOR, $fontColor=white, $legendText="External System")
 UpdateElementStyle("system", $bgColor=$SYSTEM_COLOR, $borderColor=$SYSTEM_COLOR, $fontColor=white, $legendText="System")
+UpdateElementStyle("container", $bgColor=$CONTAINER_COLOR, $borderColor=$CONTAINER_COLOR, $fontColor=white, $legendText="Container")
 UpdateElementStyle("boundary", $legendText="Boundary (dashed)")
 UpdateElementStyle("person", $bgColor=$PERSON_COLOR, $borderColor=$PERSON_COLOR, $fontColor=white, $legendText="External System", $legendText="Person")
  
